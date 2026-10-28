@@ -1,6 +1,6 @@
 <!-- Custom Nepal Banner with Embedded Stats & Icon -->
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Krish Neupane Banner" />
+  <img src="banner.svg" width="100%" alt="Krish Neupane Banner" />
 </p>
 
 <!-- Typewriter Header -->
