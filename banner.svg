@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <defs>
+    <!-- Clip path to round the banner corners -->
+    <clipPath id="rounded">
+      <rect width="900" height="380" rx="14" ry="14" />
+    </clipPath>
+    <!-- Clip path for circular avatar/icon -->
+    <clipPath id="circleClip">
+      <circle cx="780" cy="180" r="58" />
+    </clipPath>
+  </defs>
+
+  <!-- 1. Background Nepal Image -->
+  
+
+  <!-- 2. Dark Translucent Overlay Box for GitHub Stats & Icon -->
+  <rect x="50" y="45" width="800" height="290" rx="12" fill="#0d1117" fill-opacity="0.78" stroke="#f6851b" stroke-width="2" />
+
+  <!-- 3. Terminal Title Bar -->
+  <text x="80" y="88" fill="#58a6ff" font-family="&#39;Fira Code&#39;, &#39;Courier New&#39;, monospace" font-size="20" font-weight="bold">
+    krish@uwl:~$ github-stats --user nkrishes
+  </text>
+  <line x1="80" y1="102" x2="720" y2="102" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- 4. Stats Rows (Terminal Style) -->
+  <g font-family="&#39;Fira Code&#39;, &#39;Courier New&#39;, monospace" font-size="15" fill="#e6edf3">
+    <text x="80" y="140"><tspan fill="#f6851b">Username    :</tspan> nkrishes</text>
+    <text x="80" y="175"><tspan fill="#f6851b">Role        :</tspan> CS & Cybersecurity Undergrad</text>
+    <text x="80" y="210"><tspan fill="#f6851b">Campus Lead :</tspan> CODERS Club & ISO President</text>
+    <text x="80" y="245"><tspan fill="#f6851b">Active Base :</tspan> University of Wisconsin-La Crosse</text>
+    <text x="80" y="280"><tspan fill="#58a6ff">Status      :</tspan> Available for Internships & Collaborations</text>
+  </g>
+
+  <!-- 5. GitHub Avatar / Icon Holder inside the banner -->
+  <circle cx="780" cy="180" r="62" fill="none" stroke="#f6851b" stroke-width="2.5" />
+  
+</svg>
